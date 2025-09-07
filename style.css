@@ -13,7 +13,8 @@
   --bg-color: #fcfcfc;
   --second-bg-color: #f8f8f8;
   --text-color: black;
-  --main-color: #ff8615;
+  --main-color: #0496ff;
+  --main-color-2: #ff8615;
 }
 
 html {
@@ -109,6 +110,9 @@ section {
 .home-img img {
   position: relative;
   width: 32vw;
+  height: 32vw;
+  object-fit: cover;
+  object-position: center;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -262,6 +266,9 @@ section {
   position: relative;
   border-radius: 50%;
   width: 30vw;
+  height: 30vw;
+  object-fit: cover;
+  object-position: center;
   cursor: pointer;
 }
 
@@ -499,17 +506,17 @@ section {
 }
 
 .bar .progress-line.javascript span {
-  width: 80%;
+  width: 60%;
   background-color: gold;
 }
 
 .bar .progress-line.react span {
-  width: 100%;
+  width: 40%;
   background-color: rgb(58, 58, 255);
 }
 
 .bar .progress-line.mongodb span {
-  width: 75%;
+  width: 50%;
   background-color: greenyellow;
 }
 

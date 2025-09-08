@@ -24,3 +24,12 @@ menuIcon.onclick = () => {
   menuIcon.classList.toggle('bx-x');
   navbar.classList.toggle('active');
 }
+
+//Download PDF 
+document.getElementById("download-btn").addEventListener("click", function () {
+  // Create an invisible link
+  const link = document.createElement("a");
+  link.href = "resume.pdf"; // path to your PDF
+  link.download = "resume.pdf"; // file name when downloaded
+  link.click();
+});
